@@ -59,3 +59,35 @@ Now that Active Directory is installed we are going to configure it to become a 
 Go back to Domain Controller -> After aobve steps of clicking on "Promote this server to a domain controller" -> Click on it -> Add a new forest -> Type in the domain name -> Next -> Next -> Ensure Create DNS delegation is unchecked -> Next -> Next -> Install and wait for the new forest to be installed for the computer to turn into a Domain controller completely -> Automatically restarts -> Login again into Domain Controller using the domain "\" domain controller name and or user name
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+</p>
+<br />
