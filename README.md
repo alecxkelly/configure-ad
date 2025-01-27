@@ -25,13 +25,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 • Login into Domain controller and Install Active Directory
 
-• Create an Admin and Normal User Account in AD
+• Create a Domain Admin user within the Domain and Normal Users
 
-• Join Client-1 to your domain (mydomain.com)
+• Join Client-1 to the domain name (mydomain.com as example)
 
 • Setup Remote Desktop for non-administrative users on Client-1
-
-• Create a bunch of additional users and attempt to log into client-1 with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -64,7 +62,7 @@ Go back to Domain Controller -> After aobve steps of clicking on "Promote this s
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Once restarted you will be logged back in, now as again as a domain controller -> Start -> Click Windows Adminastrative tools -> Click Active Directory Users and Computers
 </p>
 <br />
 
@@ -72,7 +70,7 @@ Go back to Domain Controller -> After aobve steps of clicking on "Promote this s
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Create Organizational Unit (Here is how you create a user/s and or admins within an Organization) -> Create a new Organizational Unit for ADMINS by Right-Clicking domain name site -> New -> Organizational Unit(Add Organization Unit in the domain site) -> Click Ok -> now repeat these steps and create organazational unit for users named Employees 
 </p>
 <br />
 
@@ -80,7 +78,15 @@ Go back to Domain Controller -> After aobve steps of clicking on "Promote this s
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Now create a domain admin user within the domain by going to ADMINS folder within domain name in Active Directory user and computers folder -> 
+</p>
+<br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+Now to join Clients/Users to a domain name 
 </p>
 <br />
 
@@ -88,6 +94,9 @@ Go back to Domain Controller -> After aobve steps of clicking on "Promote this s
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Now to Setup a Remote Desktop for non administrative users on VM Client-1
 </p>
 <br />
+
+
+
