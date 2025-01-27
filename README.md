@@ -56,6 +56,6 @@ Close out roles and features -> Look at the top right at yellow flag(Yellow flag
 </p>
 <p>
 Now that Active Directory is installed we are going to configure it to become a Domain Controller within a new forest in our Domain.
-Go back to Domain Controller -> After aobve steps of clicking on "Promote this server to a domain controller" -> Click on it -> Add a new forest -> Type in the domain name -> Next -> Next -> Ensure Create DNS delegation is unchecked -> Next -> Next -> Install and wait for the new forest to be installed for the computer to turn into a Domain controller completely -> Automatically restarts -> Login again into Domain Controller using the domain \ domain controller name 
+Go back to Domain Controller -> After aobve steps of clicking on "Promote this server to a domain controller" -> Click on it -> Add a new forest -> Type in the domain name -> Next -> Next -> Ensure Create DNS delegation is unchecked -> Next -> Next -> Install and wait for the new forest to be installed for the computer to turn into a Domain controller completely -> Automatically restarts -> Login again into Domain Controller using the domain "\" domain controller name 
 </p>
 <br />
