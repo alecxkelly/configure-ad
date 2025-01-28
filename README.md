@@ -37,6 +37,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Establish the virtual machine in Microsoft Azure in order to do a remote desktop connection. By creating a Domain Controller and Client user this is how you are able to create the Active Directory database that allows the domain controller to be able to store information and give access to users to connect to certain resources within the network
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Open Service Manager from start window -> Add roles and features -> Click Next, Click Next again, ensure operating system of the domain controller is selected -> Check Active Directory Domain Services box -> Add features -> Next -> Next -> Next -> Next -> Restart is reuqired box pops up -> Select Yes -> Install complete.
 </p>
 <br />
@@ -86,7 +94,8 @@ Now create a domain admin user within the domain by Right-Clicking ADMINS folder
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Now to join Clients/Users to a domain name -> Login as the local admin  -> 
+Now to join Clients/Users to a domain name -> Login as the original local admin user in Client 1 and join into the domain(computer will restart -> Right-Click start menu -> System -> Rename this PC -> Change -> Ensure "Member of" Domain category is ticked -> add the domain name site -> OK -> add the Domain Controller using the domain admin credentials for Computer Name/Domain changes tab -> OK -> Restart -> Login to Domain Controller using an admin login to verify Client-1 shows up in ADUC(Active Directory Users and Computers) //NEED TO DO LAST STEP OVER CLIENT 1 DOESNT APPEAR IN COMMPUTER DO VMS ALLOVER
+
 </p>
 <br />
 
