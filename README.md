@@ -78,7 +78,7 @@ Create Organizational Unit (Here is how you create a user/s and or admins within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now create a domain admin user within the domain by going to ADMINS folder within domain name in Active Directory user and computers folder -> 
+Now create a domain admin user within the domain by Right-Clicking ADMINS folder within domain name still in Active Directory Users and Computers folder -> New -> User -> Fill out using the users credentials -> Next -> Finish(the account isnt an admin yet, to make it fully active as an admin) -> We must now add the admin to the built-in "Security group" -> Back to Active Directory Users and Computers -> click on Admins -> Right-Click the admin user -> properties  -> Member of -> domain admins -> Check Names -> OK -> Apply -> OK(Now the account is an actual domain admin)   
 </p>
 <br />
 
@@ -86,7 +86,7 @@ Now create a domain admin user within the domain by going to ADMINS folder withi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Now to join Clients/Users to a domain name 
+Now to join Clients/Users to a domain name -> Login as the local admin  -> 
 </p>
 <br />
 
