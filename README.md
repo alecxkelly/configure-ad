@@ -112,7 +112,7 @@ Now to Setup a Remote Desktop for non administrative users on client-1 -> login 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now to create additional users as a domain admin -> login as a domain admin -> Right-Click on Powershell ISE and run as administrator -> PSh opens -> Run coded scrpit in Power Shell ISE -> Click RUN icon -> Users will be created in the PSh ISE 
+Now to create additional users as a domain admin -> login as a domain admin -> Right-Click on Powershell ISE and run as administrator -> PSh opens -> Run coded scrpit in Power Shell ISE -> Click RUN icon -> Users will be created in the PSh ISE -> Now you can ensure setup is correct by attempting to login using one of the user usernames from PSh to ensure users can seamlessly login
 </p>
 <br />
 
