@@ -25,11 +25,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 • Login into Domain controller and Install Active Directory
 
-• Create a Domain Admin user within the Domain and Normal Users
+• Create a Domain Admin User within the Domain
 
-• Join Client-1 to the domain name (mydomain.com as example)
+• Join client-1 to the domain name (mydomain.com as example)
 
-• Setup Remote Desktop for non-administrative users on Client-1
+• Setup Remote Desktop for non-administrative users on client-1
+
+• Create a bunch of additional users in Powershell 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -94,8 +96,7 @@ Now create a domain admin user within the domain by Right-Clicking ADMINS folder
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Now to join Clients/Users to a domain name -> Login as the original local admin user in Client 1 and join into the domain(computer will restart -> Right-Click start menu -> System -> Rename this PC -> Change -> Ensure "Member of" Domain category is ticked -> add the domain name site -> OK -> add the Domain Controller using the domain admin credentials for Computer Name/Domain changes tab -> OK -> Restart -> Login to Domain Controller using an admin login to verify Client-1 shows up in ADUC(Active Directory Users and Computers) //NEED TO DO LAST STEP OVER CLIENT 1 DOESNT APPEAR IN COMMPUTER DO VMS ALLOVER
-
+Now to join Clients/Users to a domain name -> Login as the original local admin user in Client 1 and join into the domain(computer will restart -> Right-Click start menu -> System -> Rename this PC -> Change -> Ensure "Member of" Domain category is ticked -> add the domain name site -> OK -> add the Domain Controller using the domain admin credentials for Computer Name/Domain changes tab -> OK -> Restart -> Login to Domain Controller using an admin login to verify Client-1 shows up in ADUC(Active Directory Users and Computers)
 </p>
 <br />
 
@@ -103,7 +104,15 @@ Now to join Clients/Users to a domain name -> Login as the original local admin 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now to Setup a Remote Desktop for non administrative users on VM Client-1
+Now to Setup a Remote Desktop for non administrative users on client-1 -> login to client-1 as admin/domain user -> Open system properties -> Click “Remote Desktop” -> Allow “domain users” access to remote desktop -> OK -> OK -> Now all domain users should be allowed to login to that computer
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now to create additional users as a domain admin -> login as a domain admin -> Right-Click on Powershell ISE and run as administrator -> PSh opens -> Run coded scrpit in Power Shell ISE -> Click RUN icon -> Users will be created in the PSh ISE 
 </p>
 <br />
 
